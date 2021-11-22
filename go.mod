@@ -1,4 +1,4 @@
-module github.com/CitizenF1/worley-noise
+module github.com/CitizenF1/draw
 
 go 1.17
 
