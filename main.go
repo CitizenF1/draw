@@ -1,18 +1,6 @@
 package main
 
-import "github.com/go-p5/p5"
-
-// func main() {
-// 	webcam, _ := gocv.VideoCaptureDevice(0)
-// 	window := gocv.NewWindow("Hello")
-// 	img := gocv.NewMat()
-
-// 	for {
-// 		webcam.Read(&img)
-// 		window.IMShow(img)
-// 		window.WaitKey(1)
-// 	}
-// }
+// const width, height = float64(600), float64(600)
 
 // type Star struct {
 // 	x float64
@@ -20,7 +8,7 @@ import "github.com/go-p5/p5"
 // 	z float64
 // }
 
-// var stars = make([]Star, 100)
+// var stars [600]*Star
 
 // func Stars() Star {
 // 	return Star{
@@ -31,32 +19,31 @@ import "github.com/go-p5/p5"
 // }
 
 // func show() Star {
-// 	// p5.Fill(color.White)
-// 	p5.Ellipse(Stars().x, Stars().y, 10, 10)
-// 	return Star{}
+// p5.Fill(color.White)
+// p5.Ellipse(Stars().x, Stars().y, 10, 10)
+// return Star{}
 // }
 
-func main() {
-	p5.Run(setup, draw)
-}
+///////////////MAIN
+// func main() {
+// 	p5.Run(setup, draw)
+// }
 
 // func setup() {
-// 	p5.Canvas(600, 600)
-// 	// for i := 0; i < len(stars); i++ {
-// 	// 	stars[i] = Stars()
-// 	// }
+// p5.Canvas(int(width), int(height))
+// for i := 0; i < len(stars); i++ {
+// 	stars[i] = Stars()
+// }
 // }
 
 // func draw() {
-// 	p5.Background(color.Black)
-// 	// for i := range stars {
-// 	// 	stars[i] = Stars()
-// 	// 	stars[i] = show()
-// 	// }
-// 	for i := 0; i < len(stars); i++ {
-// 		stars[i] = Stars()
-// 		stars[i] = show()
-// 	}
+// p5.Background(color.Black)
+// for i := range stars {
+// 	stars[i] = Stars()
+// 	stars[i] = show()
+// }
+// for i := 0; i < len(stars); i++ {
+// }
 // }
 
 /////////////////////////////////////////////////////////////////
