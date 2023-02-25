@@ -19,10 +19,9 @@ require (
 	github.com/campoy/embedmd v1.0.0 // indirect
 	github.com/faiface/pixel v0.10.0
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	gocv.io/x/gocv v0.29.0 // indirect
 	golang.org/x/exp v0.0.0-20210722180016-6781d3edade3 // indirect
 	golang.org/x/image v0.0.0-20210628002857-a66eb6448b8d // indirect
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	golang.org/x/sys v0.1.0 // indirect
 	golang.org/x/text v0.3.6 // indirect
 	gonum.org/v1/gonum v0.9.2 // indirect
 )
