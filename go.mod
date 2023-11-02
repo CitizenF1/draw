@@ -20,8 +20,8 @@ require (
 	github.com/faiface/pixel v0.10.0
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	golang.org/x/exp v0.0.0-20210722180016-6781d3edade3 // indirect
-	golang.org/x/image v0.5.0 // indirect
-	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/image v0.10.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/text v0.11.0 // indirect
 	gonum.org/v1/gonum v0.9.2 // indirect
 )
